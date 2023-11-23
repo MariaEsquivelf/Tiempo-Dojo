@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>DojoWeather</h1>
+        <ul>
+            <li onclick="showAlert()"><a href="#">Burbank</a></li>
+            <li onclick="showAlert()"><a href="#">Chicago</a></li>
+            <li onclick="showAlert()"><a href="#">Dallas</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <Header>
+            <h1>San Jose</h1>
+            <div>
+                <label for="showTemperature">Show temperature in</label>
+                <select>
+                    <option value="c">C</option>
+                    <option value="f">F</option>
+                    <option value="k">K</option>
+                </select>
+            </div>
+        </Header>
+        <hr>   
+        <section>
+            <div>
+                <h3>Today</h3>
+                <img  height="100vh"  src="https://cdn-icons-png.flaticon.com/128/3520/3520675.png" alt="Today.png">
+                <p>some rain</p>
+                <div class="temp">
+                    <h3>24</h3>
+                    <h3>18</h3>
+                </div>
+            </div>
+            <div>
+                <h3>Today</h3>
+                <img height="100vh" src="https://cdn-icons-png.flaticon.com/128/2698/2698194.png" alt="Tomorrow.png">
+                <p>some rain</p>
+                <div class="temp">
+                    <h3>24</h3>
+                    <h3>18</h3>
+                </div>
+            </div>
+            <div>
+                <h3>Today</h3>
+                <img height="100vh" src="https://cdn-icons-png.flaticon.com/512/494/494435.png" alt="Friday.png">
+                <p>some rain</p>
+                <div class="temp">
+                    <h3>24</h3>
+                    <h3>18</h3>
+                </div>
+            </div>
+            <div>
+                <h3>Today</h3>
+                <img height="100vh" src="https://cdn-icons-png.flaticon.com/128/2698/2698194.png" alt="Saturday.png">
+                <p>some rain</p>
+                <div class="temp">
+                    <h3>24</h3>
+                    <h3>18</h3>
+                </div>
+            </div>
+        
+        </section>
+        <span>
+            <img height="80vh" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1vghvnNzxe9riV_8I6WNLHrdLbbKIKaoWfsLqWSYuCCV-vS3M" alt="luna.png">
+            <div>
+                <h1>Stop! Cookie time</h1>
+                <p>We use cookies (sadly not the edible ones) to personalize
+                    content and ads, to provide social media features and to
+                    analyse our traffic. <a href="#">Read more ..</a></p>
+            </div>
+           <button onclick="remove(this)">I accept</button>
+        </span>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
